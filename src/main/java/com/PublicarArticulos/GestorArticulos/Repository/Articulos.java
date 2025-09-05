@@ -8,6 +8,9 @@ package com.PublicarArticulos.GestorArticulos.Repository;
  *
  * @author USER
  */
-public class Articulos {
+import com.publicararticulos.gestorarticulos.model.Articulo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ArticuloRepository extends JpaRepository<Articulo, Integer> {
     
 }
